@@ -61,7 +61,13 @@ export default function Header() {
 
   const ActionButtons = () => (
     <HStack gap="16px" justify="space-between">
-      <Button width={{ base: "151px", lg: "143px" }} fontSize="20px">
+      <Button 
+        as="a"
+        href="/docs/curriculo-julia-tavares.pdf"
+        download
+        width={{ base: "151px", lg: "143px" }} 
+        fontSize="20px"
+      >
         Currículo
         <Icon boxSize="18px">
           <MdOutlineFileDownload />
@@ -77,7 +83,7 @@ export default function Header() {
       position="fixed"
       zIndex="1001"
       top="0"
-      background="bg.section.primary"
+      background="white"
       width="100%"
       height="104px"
     >
