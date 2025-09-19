@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Júlia Tavares  
 
-## Getting Started
+🌐 [Acesse meu portfólio](https://juliatavaresdev.vercel.app/)  
 
-First, run the development server:
+## 📖 Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este é o meu portfólio pessoal, desenvolvido para apresentar quem eu sou, minhas habilidades e alguns dos principais projetos que já construí.
+O site foi feito com foco em simplicidade, responsividade e experiência do usuário.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias utilizadas 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=flat-square&logo=chakra-ui&logoColor=white)](https://chakra-ui.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Como rodar o projeto localmente
 
-## Learn More
+1. Clone este repositório em sua máquina:
+   ```bash
+   git clone https://github.com/juliatvrs/julia-dev-portfolio.git
 
-To learn more about Next.js, take a look at the following resources:
+2. Acesse a pasta do projeto:
+   ```bash
+   cd julia-dev-portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instale as dependências:
+   ```bash
+   npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Execute o projeto:
+   ```bash
+   npm run start
 
-## Deploy on Vercel
+5. O projeto ficará disponível em: http://localhost:3000/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contato 
+- [LinkedIn](https://www.linkedin.com/in/tavares-julia)
+- tavaresmjulia97@gmail.com
