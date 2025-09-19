@@ -50,6 +50,7 @@ export default function Header() {
         <Link
           key={link.label}
           href={link.href}
+          onClick={() => setIsDrawerOpen(false)}
           _hover={{ textDecoration: "none", color: "#4B5563" }}
           outline="none"
         >
@@ -118,7 +119,7 @@ export default function Header() {
             <Portal>
               <Drawer.Backdrop backdropFilter="blur(4px)" />
               <Drawer.Positioner>
-                <Drawer.Content padding="0">
+                <Drawer.Content padding="0" zIndex="overlay">
                   <Drawer.Header paddingX="16px" paddingBottom="20px" paddingTop="16px">
                     <Logo />
                   </Drawer.Header>
